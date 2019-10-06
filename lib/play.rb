@@ -36,3 +36,13 @@ def turn(board)
 end
 
 # Define your play method below
+
+def play (board)
+  # plays 9 turns of tic-tac-toe
+  
+  9.times do 
+    turn(board)
+    #break if position_taken(board, index.between(0,8)) == true 
+  end
+  
+end
